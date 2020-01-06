@@ -38,7 +38,13 @@ class Index extends \dvijok\core\Core {
 
 	public function __construct($path, $data) {
   
-  
+        }
+	
+	
+	public function index(){
+
+
+        }
   
   }
   
