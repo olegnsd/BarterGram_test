@@ -63,3 +63,9 @@ class Index extends \dvijok\core\Core {
 </div>
 <?= $this->call("index/index/footer"); ?>
 ```
+
+для ошибок 404 есть отдельный модуль
+```
+\modules\error\controllers\Error.php
+```
+который будет вызыватся в случае если путь не найдён или модуль не найдён
