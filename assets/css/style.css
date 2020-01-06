@@ -1,0 +1,58 @@
+body {
+    
+    background: black;
+    color: white;
+}
+.rand_num {
+    
+    color: yellow;
+    font-size: 40pt;
+    text-align: center;
+}
+.ip, .ynum {
+    
+    text-align: center;
+}
+.level {
+    
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+.exp {
+    
+    position: relative;
+    z-index: 100;
+    color: orange;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 4px solid green;
+}
+.progress {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: yellow;
+    height: 30px;
+    width: 50px;
+    z-index: -1;
+}
+.chat {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    background: white;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+}
+.chat textarea {
+    
+    margin-top: 15px;
+}

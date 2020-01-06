@@ -1,0 +1,123 @@
+body {
+	
+	#height: 100%;
+	display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.layout {
+	
+	width: 90%;
+	margin: auto;
+	flex: 1;
+	padding-top: 10px;
+	#display: flex;
+	#flex-direction: column;
+	#flex: 1;
+	#height: -webkit-fill-available;
+}
+.navbar {
+	padding: 0;
+}
+.navbar-light .navbar-brand {
+	
+	color: rgba(210, 122, 122, 0.9);
+	font-size: 1.1rem;
+    font-weight: bold;
+}
+.dark {
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	
+}
+.dark .win {
+	
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	margin-top: -150px;
+	margin-left: -200px;
+	padding: 10px;
+	border: 8px solid silver;
+	background-color: white;
+	display: none;
+	
+}
+.dark .win .close {
+	
+    position: absolute;
+    left: 96%;
+    top: -8%;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+	
+}
+.article_item {
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.footer {
+	
+	#position: absolute;
+	#bottom: 0;
+	width: 100%;
+	background: #333333;
+	color: white;
+	#left: 0;
+	height: 60px;
+	padding: 10px;
+	border-top: 3px solid black;
+	margin-top: 20px;
+	
+}
+.article_cat_select {
+	
+	margin-bottom: 10px;
+	
+}
+select.form-control:not([size]):not([multiple])
+{
+	height: auto;
+	
+}
+input.price {
+	
+	#margin-left: 10px;
+	margin-right: 10px;
+	
+	
+}
+select.currency {
+	
+	width: 40%;
+	
+}
+textarea.description {
+	
+	min-height: 150px;
+	
+}
+.form-inline label {
+	
+	#margin-right: 10px;
+	width: 100%;
+	justify-content: left;
+	margin-bottom: 5px;
+}
+.site_enabled input[type="radio"] {
+	
+	vertical-align: middle;
+	
+	
+}
