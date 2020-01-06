@@ -4,10 +4,10 @@ namespace dvijok\core;
 class Config {
 	
 	public static $useDb = false;
-	public static $dbHost = 'srv-pleskdb30.ps.kz';
-	public static $dbLogin = 'artla_stolz';
-	public static $dbPassword = '4j0Cj0*i';
-	public static $dbName = 'artlabte_stolzakazov';
+	public static $dbHost = '';
+	public static $dbLogin = '';
+	public static $dbPassword = '';
+	public static $dbName = '';
 	public static $errorModule = 'error';
 	public static $errorController = 'Error';
 	public static $current_url = '';
