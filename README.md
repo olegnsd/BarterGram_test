@@ -14,6 +14,7 @@ Fresh Distributed Financial System + Fresh Distributed Messenger
 
 доступ к модулям может быть осуществлён напрямую без указания роутинга, либо через алиас если указан роутинг к примеру:
 ```
+public static $remaps = array(
 		'register/:param' => array(
 		
 			'path' => 'index/index/register'
@@ -24,6 +25,7 @@ Fresh Distributed Financial System + Fresh Distributed Messenger
 			'path' => 'index/index/login'
 		
 		),
+}
 ```
 
 классы контроллера создаются так:
